@@ -44,10 +44,10 @@ profiles:
       Lucas Giovanni Uberti-Bona Marin<br>
       PhD Student
   - align: center
-    image: you.png
+    image: ishitaa.jpg
     image_circular: true # crops the image to make it circular
     more_info: >
-      You?<br>
+      Ishitaa Narwane<br>
       PhD Student
 
 supervision:
