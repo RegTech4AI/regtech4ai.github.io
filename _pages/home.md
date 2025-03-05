@@ -88,7 +88,7 @@ The aim of this project is *not* to develop new AI frameworks or laws (as this h
 The RegTech4AI team consists of interdisciplinary researchers in law, machine learning and data science:
 
 <div class="container">
-   <div class="row row-cols-4">
+   <div class="row row-cols-5">
       <div class="col mb-4">
          <div class="profile-image text-center"> <img src="assets/img/konrad.jpg" class="img-fluid z-depth-1 rounded-circle" alt="Profile image"> </div>
          <div class="profile-subtitle text-center mt-2">Konrad Kollnig<br> Project Lead, Assistant Professor CS/Law </div>
