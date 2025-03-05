@@ -98,7 +98,7 @@ The RegTech4AI team consists of interdisciplinary researchers in law, machine le
 
 {% if page.profiles %}
   <div class="container">
-    <div class="row row-cols-4">
+    <div class="row row-cols-5">
       {% for profile in page.profiles %}
         <div class="col mb-4">
           {% if profile.image %}
@@ -125,7 +125,7 @@ The project is supported by experienced researchers from the Law & Tech Lab of M
 
 {% if page.supervision %}
   <div class="container">
-    <div class="row row-cols-4">
+    <div class="row row-cols-5">
       {% for profile in page.supervision %}
         <div class="col mb-4">
           {% if profile.image %}
