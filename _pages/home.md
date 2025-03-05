@@ -2,7 +2,7 @@
 layout: about
 title: home
 permalink: /
-subtitle: <i>An NGF-funded project with a 2.1 million Euro budget applying technical methods to the law with the aim of making the EU's ambitious AI regulation – particularly the GDPR and AI Act – work in practice.</i>
+subtitle: <i>An NGF-funded project applying technical methods to the law with the aim of making the EU's ambitious AI regulation – particularly the GDPR and AI Act – work in practice.</i>
 
 profile:
   align: right
@@ -17,14 +17,6 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 profiles:
-  # if you want to include more than one profile, just replicate the following block
-  # and create one content file for each profile inside _pages/
-  - align: center
-    image: konrad.jpg
-    image_circular: true # crops the image to make it circular
-    more_info: >
-      Konrad Kollnig<br>
-      Project Lead, Assistant Professor CS/Law
   - align: center
     image: kamil.jpg
     image_circular: true # crops the image to make it circular
@@ -49,6 +41,12 @@ profiles:
     more_info: >
       Ishitaa Narwane<br>
       PhD Student
+  - align: center
+    image: qian.jpg
+    image_circular: true # crops the image to make it circular
+    more_info: >
+      Qian Li<br>
+      Postdoctoral Researcher
 
 supervision:
   - align: center
@@ -75,12 +73,6 @@ supervision:
     more_info: >
       Jerry Spanakis<br>
       Assistant Professor in NLP and Law
-  - align: center
-    image: qian.jpg
-    image_circular: true # crops the image to make it circular
-    more_info: >
-      Qian Li<br>
-      Postdoctoral Researcher
 ---
 
 **You can follow the project updates by subscribing to our Substack: <https://regtech4ai.substack.com/>**
@@ -91,15 +83,22 @@ As the EU is introducing the *AI Act* (i.e. its first law aimed directly at AI),
 
 The aim of this project is *not* to develop new AI frameworks or laws (as this has been studied much before). Instead, **we focus on the challenge of** **implementation****: making AI-relevant laws like GDPR and the AI Act work in practice**. This topic has received very limited attention as it requires a deep understanding of both CS and law – which is rare.
 
-To be prepared to respond to new AI challenges in the years ahead, we will also actively build bridges across CS and law, including by organising a set of workshops and conferences on the topic.
-
 ## team
 
 The RegTech4AI team consists of interdisciplinary researchers in law, machine learning and data science:
 
+<div class="container">
+   <div class="row row-cols-4">
+      <div class="col mb-4">
+         <div class="profile-image text-center"> <img src="assets/img/konrad.jpg" class="img-fluid z-depth-1 rounded-circle" alt="Profile image"> </div>
+         <div class="profile-subtitle text-center mt-2">Konrad Kollnig<br> Project Lead, Assistant Professor CS/Law </div>
+      </div>
+   </div>
+</div>
+
 {% if page.profiles %}
   <div class="container">
-    <div class="row row-cols-5">
+    <div class="row row-cols-4">
       {% for profile in page.profiles %}
         <div class="col mb-4">
           {% if profile.image %}
@@ -126,7 +125,7 @@ The project is supported by experienced researchers from the Law & Tech Lab of M
 
 {% if page.supervision %}
   <div class="container">
-    <div class="row row-cols-5">
+    <div class="row row-cols-4">
       {% for profile in page.supervision %}
         <div class="col mb-4">
           {% if profile.image %}
