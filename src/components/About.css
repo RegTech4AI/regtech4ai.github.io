@@ -1,0 +1,149 @@
+.about {
+  padding: 6rem 2rem;
+  background: var(--color-bg);
+  position: relative;
+}
+
+.about::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #333, transparent);
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  gap: 3rem;
+  max-width: 900px;
+  margin: 0 auto 5rem;
+}
+
+.about-label {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--color-text-dim);
+  gap: 0.2rem;
+}
+
+.about-content {
+  max-width: 600px;
+}
+
+.about-headline {
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
+
+.highlight {
+  color: var(--color-pop-2);
+}
+
+.about-text {
+  font-size: 1.1rem;
+  color: var(--color-text-dim);
+  line-height: 1.7;
+}
+
+.aims-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  background: #222;
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.aim {
+  background: var(--color-bg);
+  padding: 2rem 1.5rem;
+  position: relative;
+  transition: all 0.4s;
+}
+
+.aim::before {
+  content: attr(data-num);
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 800;
+  color: #1a1a1a;
+  line-height: 1;
+}
+
+.aim:hover {
+  background: var(--color-pop);
+}
+
+.aim:hover::before {
+  color: rgba(255,255,255,0.2);
+}
+
+.aim:nth-child(2):hover { background: var(--color-pop-2); }
+.aim:nth-child(3):hover { background: var(--color-pop-3); }
+.aim:nth-child(4):hover { background: var(--color-pop-4); }
+
+.aim:hover h3,
+.aim:hover p {
+  color: white;
+}
+
+.aim:nth-child(3):hover h3,
+.aim:nth-child(3):hover p {
+  color: var(--color-bg);
+}
+
+.aim h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.4rem;
+  transition: color 0.4s;
+}
+
+.aim p {
+  font-size: 0.9rem;
+  color: var(--color-text-dim);
+  line-height: 1.5;
+  transition: color 0.4s;
+}
+
+@media (max-width: 900px) {
+  .about {
+    padding: 4rem 1.5rem;
+  }
+  
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .about-label {
+    flex-direction: row;
+    gap: 0.75rem;
+  }
+  
+  .aims-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .aims-section {
+    grid-template-columns: 1fr;
+  }
+  
+  .aim {
+    padding: 1.5rem;
+  }
+}
