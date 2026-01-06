@@ -165,44 +165,32 @@ export default function Home() {
           </p>
 
           <div className="mb-10">
-            <h3 className="text-2xl font-black mb-6 text-foreground">Core Researchers</h3>
+            <h3 className="text-2xl font-black mb-6 text-foreground">Research Team</h3>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
               <TeamMember
                 name="Konrad Kollnig"
-                role="Project Lead"
-                image="/professional-academic-researcher-portrait.jpg"
+                role="Project Lead & Assistant Professor in CS and Law"
+                image="/team/konrad.jpg"
               />
-              <TeamMember name="Kamil Szostak" role="PhD Student" image="/phd-student-researcher-portrait.jpg" />
-              <TeamMember name="Bram Rijsbosch" role="PhD Student" image="/phd-student-researcher-portrait.jpg" />
+              <TeamMember name="Kamil Szostak" role="PhD Student" image="/team/kamil.jpg" />
+              <TeamMember name="Bram Rijsbosch" role="PhD Student" image="/team/bram.jpg" />
               <TeamMember
                 name="Lucas Giovanni Uberti-Bona Marin"
                 role="PhD Student"
-                image="/phd-student-researcher-portrait.jpg"
+                image="/team/lucas.jpg"
               />
-              <TeamMember name="Ishitaa Narwane" role="PhD Student" image="/phd-student-researcher-portrait.jpg" />
-              <TeamMember name="Qian Li" role="Postdoc" image="/postdoc-researcher-portrait.jpg" />
+              <TeamMember name="Ishitaa Narwane" role="PhD Student" image="/team/ishitaa.jpg" />
+              <TeamMember name="Qian Li" role="Postdoc" image="/team/qian.jpg" />
             </div>
           </div>
 
           <div>
-            <h3 className="text-2xl font-black mb-6 text-foreground">Faculty</h3>
+            <h3 className="text-2xl font-black mb-6 text-foreground">Supporting Faculty</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-              <TeamMember name="Gijs van Dijck" role="Professor" image="/professor-law-portrait.jpg" />
-              <TeamMember
-                name="Johanna T. Gunawan"
-                role="Assistant Professor in CS/HCI/Law"
-                image="/assistant-professor-portrait.jpg"
-              />
-              <TeamMember
-                name="Marta Kołacz"
-                role="Assistant Professor in Law"
-                image="/assistant-professor-law-portrait.jpg"
-              />
-              <TeamMember
-                name="Jerry Spanakis"
-                role="Assistant Professor in NLP and Law"
-                image="/assistant-professor-nlp-portrait.jpg"
-              />
+              <FacultyMember name="Gijs van Dijck" role="Professor" />
+              <FacultyMember name="Johanna T. Gunawan" role="Assistant Professor in CS/HCI/Law" />
+              <FacultyMember name="Marta Kołacz" role="Assistant Professor in Law" />
+              <FacultyMember name="Jerry Spanakis" role="Assistant Professor in NLP and Law" />
             </div>
           </div>
         </div>
@@ -248,6 +236,15 @@ function TeamMember({ name, role, image }: { name: string; role: string; image: 
         <h3 className="font-black text-sm mb-1 text-pretty leading-tight">{name}</h3>
         <p className="text-xs font-bold text-muted-foreground">{role}</p>
       </div>
+    </Card>
+  )
+}
+
+function FacultyMember({ name, role }: { name: string; role: string }) {
+  return (
+    <Card className="p-4 border-4 border-foreground shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] bg-card">
+      <h3 className="font-black text-sm mb-1 text-pretty leading-tight">{name}</h3>
+      <p className="text-xs font-bold text-muted-foreground">{role}</p>
     </Card>
   )
 }
