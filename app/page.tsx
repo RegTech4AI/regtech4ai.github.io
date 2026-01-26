@@ -78,6 +78,48 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="py-12 md:py-16 bg-primary">
+        <div className="container mx-auto px-4">
+          <div className="flex items-center gap-3 mb-4">
+            <Users className="w-10 h-10 text-foreground" />
+            <h2 className="text-3xl md:text-5xl font-black text-foreground">The Humans</h2>
+          </div>
+          <p className="text-lg font-bold mb-10 text-foreground max-w-3xl">
+            Our team brings together researchers from computer science, law, HCI, and NLP at Maastricht University.
+          </p>
+
+          <div className="mb-10">
+            <h3 className="text-2xl font-black mb-6 text-foreground">Research Team</h3>
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+              <TeamMember
+                name="Konrad Kollnig"
+                role="Project Lead & Assistant Professor in CS and Law"
+                image="/team/konrad.jpg"
+              />
+              <TeamMember name="Kamil Szostak" role="PhD Student" image="/team/kamil.jpg" />
+              <TeamMember name="Bram Rijsbosch" role="PhD Student" image="/team/bram.jpg" />
+              <TeamMember
+                name="Lucas Giovanni Uberti-Bona Marin"
+                role="PhD Student"
+                image="/team/lucas.jpg"
+              />
+              <TeamMember name="Ishitaa Narwane" role="PhD Student" image="/team/ishitaa.jpg" />
+              <TeamMember name="Qian Li" role="Postdoc" image="/team/qian.jpg" />
+            </div>
+          </div>
+
+          <div>
+            <h3 className="text-2xl font-black mb-6 text-foreground">Supporting Faculty</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+              <FacultyMember name="Gijs van Dijck" role="Professor" />
+              <FacultyMember name="Johanna T. Gunawan" role="Assistant Professor in CS/HCI/Law" />
+              <FacultyMember name="Marta Kołacz" role="Assistant Professor in Law" />
+              <FacultyMember name="Jerry Spanakis" role="Assistant Professor in NLP and Law" />
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="py-12 md:py-16 bg-secondary">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl md:text-5xl font-black mb-4 text-secondary-foreground">Publications</h2>
@@ -150,48 +192,6 @@ export default function Home() {
                 GitHub
               </Link>
             </Button>
-          </div>
-        </div>
-      </section>
-
-      <section className="py-12 md:py-16 bg-primary">
-        <div className="container mx-auto px-4">
-          <div className="flex items-center gap-3 mb-4">
-            <Users className="w-10 h-10 text-foreground" />
-            <h2 className="text-3xl md:text-5xl font-black text-foreground">The Humans</h2>
-          </div>
-          <p className="text-lg font-bold mb-10 text-foreground max-w-3xl">
-            Our team brings together researchers from computer science, law, HCI, and NLP at Maastricht University.
-          </p>
-
-          <div className="mb-10">
-            <h3 className="text-2xl font-black mb-6 text-foreground">Research Team</h3>
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
-              <TeamMember
-                name="Konrad Kollnig"
-                role="Project Lead & Assistant Professor in CS and Law"
-                image="/team/konrad.jpg"
-              />
-              <TeamMember name="Kamil Szostak" role="PhD Student" image="/team/kamil.jpg" />
-              <TeamMember name="Bram Rijsbosch" role="PhD Student" image="/team/bram.jpg" />
-              <TeamMember
-                name="Lucas Giovanni Uberti-Bona Marin"
-                role="PhD Student"
-                image="/team/lucas.jpg"
-              />
-              <TeamMember name="Ishitaa Narwane" role="PhD Student" image="/team/ishitaa.jpg" />
-              <TeamMember name="Qian Li" role="Postdoc" image="/team/qian.jpg" />
-            </div>
-          </div>
-
-          <div>
-            <h3 className="text-2xl font-black mb-6 text-foreground">Supporting Faculty</h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-              <FacultyMember name="Gijs van Dijck" role="Professor" />
-              <FacultyMember name="Johanna T. Gunawan" role="Assistant Professor in CS/HCI/Law" />
-              <FacultyMember name="Marta Kołacz" role="Assistant Professor in Law" />
-              <FacultyMember name="Jerry Spanakis" role="Assistant Professor in NLP and Law" />
-            </div>
           </div>
         </div>
       </section>
