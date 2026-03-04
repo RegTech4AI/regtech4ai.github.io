@@ -33,7 +33,14 @@ export default function Home() {
         </div>
 
         <div className="container mx-auto px-4 py-12 md:py-16 relative z-10">
-          <h1 className="text-5xl md:text-7xl font-black mb-4 text-foreground">RegTech4AI</h1>
+          <div className="flex items-center gap-6 mb-6">
+            <img
+              src="/logo.png"
+              alt="RegTech4AI logo"
+              className="w-20 h-20 md:w-28 md:h-28 flex-shrink-0 border-4 border-foreground shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] rounded-full bg-white"
+            />
+            <h1 className="text-5xl md:text-7xl font-black text-foreground">RegTech4AI</h1>
+          </div>
           <p className="text-2xl md:text-3xl font-bold text-foreground mb-6">Bringing AI Law into Practice</p>
           <p className="text-lg md:text-xl font-semibold text-foreground max-w-3xl">
             An NGF-funded research initiative making EU AI regulation work in practice through regulatory technology. We
