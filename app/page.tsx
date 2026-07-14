@@ -138,7 +138,7 @@ export default function Home() {
             {publications.map((pub) => (
               <Card
                 key={pub.id}
-                className="h-full p-6 border-4 border-foreground shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[-2px] hover:translate-y-[-2px] transition-all bg-card"
+                className="h-full gap-0 p-6 border-4 border-foreground shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[-2px] hover:translate-y-[-2px] transition-all bg-card"
               >
                 <div className="flex items-start justify-between gap-3 mb-3">
                   <span className="text-xs font-black px-3 py-1 bg-primary text-foreground border-2 border-foreground">
