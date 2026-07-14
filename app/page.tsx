@@ -138,7 +138,7 @@ export default function Home() {
             {publications.map((pub) => (
               <Card
                 key={pub.id}
-                className="p-6 border-4 border-foreground shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[-2px] hover:translate-y-[-2px] transition-all bg-card"
+                className="h-full p-6 border-4 border-foreground shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] hover:translate-x-[-2px] hover:translate-y-[-2px] transition-all bg-card"
               >
                 <div className="flex items-start justify-between gap-3 mb-3">
                   <span className="text-xs font-black px-3 py-1 bg-primary text-foreground border-2 border-foreground">
@@ -149,24 +149,11 @@ export default function Home() {
                 <h3 className="text-lg font-black mb-3 leading-tight text-balance">{pub.title}</h3>
                 <p className="text-sm font-semibold mb-3 text-muted-foreground">{pub.authors.join(", ")}</p>
                 <p className="text-sm font-bold mb-4 text-foreground">{pub.venue}</p>
-                {pub.abstract && <p className="text-sm leading-relaxed mb-4 line-clamp-3">{pub.abstract}</p>}
-                {pub.tags && (
-                  <div className="flex flex-wrap gap-2 mb-4">
-                    {pub.tags.map((tag) => (
-                      <span
-                        key={tag}
-                        className="text-xs font-bold px-2 py-1 bg-accent text-foreground border-2 border-foreground"
-                      >
-                        {tag}
-                      </span>
-                    ))}
-                  </div>
-                )}
                 {pub.url && (
                   <Button
                     asChild
                     size="sm"
-                    className="bg-foreground text-background hover:bg-foreground/90 font-black border-2 border-foreground"
+                    className="mt-auto self-start bg-foreground text-background hover:bg-foreground/90 font-black border-2 border-foreground"
                   >
                     <Link href={pub.url} target="_blank" rel="noopener noreferrer">
                       Read Paper
