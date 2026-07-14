@@ -100,7 +100,7 @@ export default function Home() {
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
               <TeamMember
                 name="Konrad Kollnig"
-                role="Project Lead & Assistant Professor in CS and Law"
+                role="Project Lead & Associate Professor in CS and Law"
                 image="/team/konrad.jpg"
               />
               <TeamMember name="Kamil Szostak" role="PhD Student" image="/team/kamil.jpg" />
