@@ -34,6 +34,15 @@ export const publications: Publication[] = [
   },
   {
     id: 3,
+    title: "From Microsoft 2004 to the DMA anno 2025: Empirically Unpacking Paradoxes in Digital Antitrust Enforcement",
+    authors: ["Q. Li", "G. van Dijck"],
+    venue: "arXiv",
+    year: 2026,
+    type: "preprint",
+    url: "https://doi.org/10.2139/ssrn.7190999",
+  },
+  {
+    id: 4,
     title: "Is your AI Model Accurate Enough? The Difficult Choices Behind Rigorous AI Development and the EU AI Act",
     authors: ["L. Uberti-Bona Marin", "B. Rijsbosch", "K. Meding", "G. Spanakis", "G. van Dijck", "...", "et al."],
     venue: "ACM FAccT",
@@ -42,7 +51,16 @@ export const publications: Publication[] = [
     url: "https://doi.org/10.1145/3805689.3806436",
   },
   {
-    id: 4,
+    id: 5,
+    title: "Measuring Market Contestability under Article 102 TFEU and the DMA",
+    authors: ["Q. Li", "G. van Dijck"],
+    venue: "arXiv",
+    year: 2026,
+    type: "preprint",
+    url: "https://doi.org/10.2139/ssrn.7190920",
+  },
+  {
+    id: 6,
     title: "Missing the Mark: Adoption of Watermarking for Generative AI Systems in Practice and Implications Under the New EU AI Act",
     authors: ["B. Rijsbosch", "G. van Dijck", "K. Kollnig"],
     venue: "Policy & Internet",
@@ -51,7 +69,7 @@ export const publications: Publication[] = [
     url: "https://doi.org/10.1002/poi3.70041",
   },
   {
-    id: 5,
+    id: 7,
     title: "Abuse of Relative Dominance by Digital Platforms: A Law and Economics Perspective",
     authors: ["Q. Li", "C. Cauffman"],
     venue: "GRUR International",
@@ -60,7 +78,7 @@ export const publications: Publication[] = [
     url: "https://academic.oup.com/grurint/article/74/3/217/7989429",
   },
   {
-    id: 6,
+    id: 8,
     title: "Are Companies Taking AI Risks Seriously? A Systematic Analysis of Companies' AI Risk Disclosures in SEC 10-K forms",
     authors: ["L. Marin", "B. Rijsbosch", "G. Spanakis", "K. Kollnig"],
     venue: "PKDD/ECML Workshops",
@@ -69,16 +87,16 @@ export const publications: Publication[] = [
     url: "https://doi.org/10.1007/978-3-032-19096-3_6",
   },
   {
-    id: 7,
+    id: 9,
     title: "Data portability strategies in the EU: Moving beyond individual rights",
-    authors: ["Y. Chao", "M. Xu", "A. Tamo-Larrieux", "K. Kollnig"],
+    authors: ["Y. Chao", "M. Xu", "A. Tamò-Larrieux", "K. Kollnig"],
     venue: "Computer Law & Security Review",
     year: 2025,
     type: "journal",
     url: "https://doi.org/10.2139/ssrn.5401709",
   },
   {
-    id: 8,
+    id: 10,
     title: "Excessive Data Collection and (Mis)use of Data: A Comparative Law and Economics Study on the Chinese Didi Case and the German Facebook Case",
     authors: ["Q. Li"],
     venue: "The Chinese Journal of Comparative Law",
@@ -87,7 +105,7 @@ export const publications: Publication[] = [
     url: "https://academic.oup.com/cjcl/article/doi/10.1093/cjcl/cxae018/7950806",
   },
   {
-    id: 9,
+    id: 11,
     title: "Mind the Competitiveness Gap: Measuring the AI Act's Extraterritorial Reach",
     authors: ["K. Szostak", "G. van Dijck", "K. Kollnig"],
     venue: "Computer Law & Security Review",
@@ -96,7 +114,7 @@ export const publications: Publication[] = [
     url: "https://doi.org/10.1016/j.clsr.2026.106357",
   },
   {
-    id: 10,
+    id: 12,
     title: "The Economics of AI-enabled Price Discrimination",
     authors: ["Q. Li"],
     venue: "Economic analysis of law in European legal scholarship",
@@ -105,7 +123,7 @@ export const publications: Publication[] = [
     url: "https://doi.org/10.1007/978-3-031-84790-5_1",
   },
   {
-    id: 11,
+    id: 13,
     title: "Legal, Technical, and Social Limitations of Data Portability through Decentralized Applications",
     authors: ["Y. Chao", "M. Xu", "A. Tamò-Larrieux", "K. Garcia", "K. Kollnig"],
     venue: "Solid Symposium (SoSy)",
