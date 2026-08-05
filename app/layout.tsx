@@ -14,12 +14,10 @@ export const metadata: Metadata = {
   generator: "v0.app",
   icons: {
     icon: [
-      {
-        url: "/logo.png",
-        type: "image/png",
-      },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/icon.png", type: "image/png", sizes: "512x512" },
     ],
-    apple: "/logo.png",
+    apple: "/apple-touch-icon.png",
   },
 }
 
