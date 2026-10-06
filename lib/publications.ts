@@ -39,7 +39,7 @@ export const publications: Publication[] = [
     venue: "Computer Law & Security Review",
     year: 2026,
     type: "journal",
-    url: "https://doi.org/10.2139/ssrn.5891642",
+    url: "https://doi.org/10.1016/j.clsr.2026.106332",
   },
   {
     id: 4,
@@ -111,7 +111,7 @@ export const publications: Publication[] = [
     venue: "Computer Law & Security Review",
     year: 2025,
     type: "journal",
-    url: "https://doi.org/10.2139/ssrn.5401709",
+    url: "https://doi.org/10.1016/j.clsr.2025.106135",
   },
   {
     id: 12,
@@ -129,7 +129,7 @@ export const publications: Publication[] = [
     venue: "Internet Policy Review",
     year: 2025,
     type: "journal",
-    url: "https://doi.org/10.2139/ssrn.4959049",
+    url: "https://doi.org/10.14763/2025.2.2010",
   },
   {
     id: 14,
