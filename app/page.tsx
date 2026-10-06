@@ -111,7 +111,7 @@ export default function Home() {
                 image="/team/lucas.jpg"
               />
               <TeamMember name="Ishitaa Narwane" role="PhD Student" image="/team/ishitaa.jpg" />
-              <TeamMember name="Qian Li" role="Postdoc" image="/team/qian.jpg" />
+              <TeamMember name="Defne Halil" role="External PhD Student" image="/team/defne.jpg" />
             </div>
           </div>
 
