@@ -16,7 +16,7 @@ export interface Publication {
 export const publications: Publication[] = [
   {
     id: 1,
-    title: "\" If I Had to Buy Just ONE: Galaxy S26 Ultra\": Auditing AI-Generated Product Recommendations",
+    title: "\"If I Had to Buy Just ONE: Galaxy S26 Ultra\": Auditing AI-Generated Product Recommendations",
     authors: ["L. Marin", "T. Bertaglia", "G. Astante", "B. Rijsbosch", "G. van Dijck", "A. Hannák", "...", "et al."],
     venue: "arXiv",
     year: 2026,
@@ -27,9 +27,9 @@ export const publications: Publication[] = [
     id: 2,
     title: "Building AI (In)dependence through EU's AI Factories",
     authors: ["D. Halil", "B. Rijsbosch", "K. Kollnig"],
-    venue: "SSRN",
+    venue: "Computer Law & Security Review",
     year: 2026,
-    type: "preprint",
+    type: "journal",
     url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6725720",
   },
   {
@@ -89,7 +89,7 @@ export const publications: Publication[] = [
   {
     id: 9,
     title: "Are Companies Taking AI Risks Seriously? A Systematic Analysis of Companies' AI Risk Disclosures in SEC 10-K forms",
-    authors: ["L. Marin", "B. Rijsbosch", "G. Spanakis", "K. Kollnig"],
+    authors: ["L. Uberti-Bona Marin", "B. Rijsbosch", "G. Spanakis", "K. Kollnig"],
     venue: "PKDD/ECML Workshops",
     year: 2025,
     type: "conference",
@@ -138,6 +138,15 @@ export const publications: Publication[] = [
     venue: "Solid Symposium 2024",
     year: 2024,
     type: "conference",
+  },
+  {
+    id: 15,
+    title: "The Impact of the EU AI Act on the Financial Services Industry",
+    authors: ["S. Sieniewicz", "K. Szostak"],
+    venue: "Finance and Capital Markets (formerly Derivatives & Financial Instruments)",
+    year: 2024,
+    type: "journal",
+    url: "https://doi.org/10.59403/2czzh3x",
   },
 ]
 
